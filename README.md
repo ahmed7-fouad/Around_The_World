@@ -21,7 +21,7 @@ I implemented **Redux** in this project to demonstrate professional state manage
 3. **Scalability:** Preparing the codebase for complex, large-scale features.
 
 ## 🔗 Live Demo
-[Insert your Vercel/Netlify link here]
+rainbow-cheesecake-0a6b01.netlify.app
 
 ## 📝 Developer Notes
 This project showcases my ability to handle asynchronous API requests and apply advanced architectural patterns in React.
