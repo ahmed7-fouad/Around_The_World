@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-ExtraLight.ttf");
+  font-weight: 300;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-Light.ttf");
+  font-weight: 400;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face{
+  font-family:"inter";
+  src:url("/public/fonts/Inter/Inter_18pt-Black.ttf");
+  font-weight: 900;
+}
+
+
+/* Themes */
+
+@theme {
+  --font-main: "inter", sans-serif; 
+
+  /*============= All Main Colors =============*/
+
+  /* White Theme Colors */
+  --color-main:#F9FAFB;
+  --color-mainDark:#1F2937;
+
+  /* Dark theme Colors */
+  --color-mainBg:#F3F4F6;
+  --color-darkBg:#111827;
+
+  /* Main Box Shadow */
+  --shadow-mainShadow:"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px";
+}
+
+
+.mainContainer{
+  @apply mx-auto px-4 max-w-[100%] sm:max-w-[40rem] md:max-w-[48rem] lg:max-w-[64rem] xl:max-w-[80rem] 2xl:max-w-[96rem];
+}
+
+*{
+  @apply font-main;
+}
